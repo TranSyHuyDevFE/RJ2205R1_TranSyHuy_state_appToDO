@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+
+.list-todo-container {
+  cursor: pointer;
+  width: 40%;
+  margin: 0 auto;
+  .todo-add {
+    margin: 30px;
+    input {
+      width: 80%;
+    }
+    button {
+      margin: 3px;
+      background-color: #48fa48;
+    }
+  }
+  .list-todo-content {
+    background: #2d2a2a;
+    border: 1px solid;
+    .todo-child {
+      display: flex;
+      justify-content: space-between;
+      margin: 23px;
+      text-align: left;
+      border-bottom: 2px solid;
+      padding-bottom: 15px;
+      .btn-delete {
+        margin-left: 10px;
+        background-color: red;
+        color: aliceblue;
+      }
+    }
+  }
+}
